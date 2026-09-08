@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+  --color-ink-navy: #0B1F3A;
+  --color-dispatch-orange: #FF7A18;
+  --color-panel-blue: #0284C7;
+  --color-panel-green: #059669;
+  --color-paper-light: #F4F7FC;
+  --color-steel: #5A6B82;
+}
+
+:root,
+[data-panel="super_admin"] {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --panel-accent: #FF7A18;
+  --panel-accent-hover: #E56A10;
+  --panel-accent-light: rgba(255, 122, 24, 0.08);
+  --panel-accent-border: rgba(255, 122, 24, 0.25);
+  --panel-accent-text: #FF7A18;
+}
+
+[data-panel="manufacturer"] {
+  --panel-accent: #0284C7;
+  --panel-accent-hover: #0369A1;
+  --panel-accent-light: rgba(2, 132, 199, 0.08);
+  --panel-accent-border: rgba(2, 132, 199, 0.25);
+  --panel-accent-text: #0284C7;
+}
+
+[data-panel="distributor"] {
+  --panel-accent: #059669;
+  --panel-accent-hover: #047857;
+  --panel-accent-light: rgba(5, 150, 105, 0.08);
+  --panel-accent-border: rgba(5, 150, 105, 0.25);
+  --panel-accent-text: #059669;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #F4F7FC;
+  color: #0B1F3A;
+}
+
+.font-mono-code {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

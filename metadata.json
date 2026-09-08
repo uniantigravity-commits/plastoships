@@ -1,0 +1,6 @@
+{
+  "name": "Super Admin Panel - PlastoShip Gujarat",
+  "description": "Management portal for PlastoShip Gujarat Super Admin to oversee manufacturers, distributors, products, categories, RFQs, orders, subscriptions, invoices, payments, and CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
